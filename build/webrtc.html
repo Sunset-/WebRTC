@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sunset-WebRTC</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <button id="share-btn" class="btn" type="button">共享辅流</button>
+    <div id="in-video-container" class="video-container">
+        <h3>我的输入流</h3>
+    </div>
+    <div id="out-video-container" class="video-container">
+        <h3>我接收的流</h3>
+    </div>
+    <video id="full-video"></video>
+    <script src="getScreen.js"></script>
+    <script src="bundle.js"></script>
+</body>
+
+</html>

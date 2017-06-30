@@ -1,0 +1,52 @@
+body {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    .btn {
+        padding: 5px 10px;
+        min-width: 120px;
+        border: none;
+        color: #FFF;
+        background: lighten(#09c, 5%);
+        &:hover {
+            background: lighten(#09c, 10%);
+        }
+        &:outline {
+            display: none;
+        }
+    }
+    #in-video-container{
+        left:0px;
+    }
+    #out-video-container{
+        right:0px;
+    }
+    .video-container {
+        position: absolute;
+        width:45%;
+        top: 50px;
+        bottom: 0px;
+        right: 300px;
+        background: #EFEFEF;
+        video {
+            width: 350px;
+            margin: 5px;
+        }
+    }
+
+    #full-video{
+        position:absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+        bottom:0px;
+        width:100%;
+        height:100%;
+        display:none;
+        &.show{
+            display:block;
+        }
+    }
+}
